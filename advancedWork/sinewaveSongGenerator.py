@@ -1,4 +1,4 @@
-```import time
+import time
 import pyaudio
 import numpy as np
 
@@ -69,4 +69,3 @@ stream.stop_stream()
 stream.close()
 
 p.terminate()
-```
