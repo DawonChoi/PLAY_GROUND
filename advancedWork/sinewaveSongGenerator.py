@@ -6,7 +6,7 @@ import numpy as np
 p = pyaudio.PyAudio()
 tuple_duration = [int(i) for i in input().split()]
 
-PI = np.pi
+PI = np.pi # CONST
 volume = 0.5     # range [0.0, 1.0]
 fs = 44100       # sampling rate, Hz, must be integer
 duration = 3.0   # in seconds, may be float
